@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hwiseo site</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>Hwiseo Official site</h1>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/goods">Goods</a>
+</nav>
+
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+</body>
+</html>
+

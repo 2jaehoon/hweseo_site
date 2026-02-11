@@ -1,0 +1,17 @@
+[
+  {
+    "name": "test1",
+    "price": 8000,
+    "description": "테스트1",
+    "image": "test1.png",
+    "link": "https://example.com"
+  },
+  {
+    "name": "test2",
+    "price": 5000,
+    "description": "테스트2",
+    "image": "test2.png",
+    "link": "https://example.com"
+  }
+]
+
